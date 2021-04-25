@@ -45,7 +45,7 @@ for f in file:
 
 
     if totalpage != -1:
-         page = 105
+         page = 1
 
          while page <= totalpage:
 
