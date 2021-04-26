@@ -17,7 +17,7 @@ worksheet = workbook.add_worksheet()
 line_count = 0
 
 
-file = open('handgun.txt','r')
+file = open('test.txt','r')
 
 for f in file:
     data = f
