@@ -4,6 +4,7 @@ import math
 import json
 import csv
 import xlsxwriter
+import re
 
 file_name = 'demo_file_2.xlsx'
 
@@ -149,13 +150,15 @@ for f in file:
             #         print ("UL2 error")
 
 
-            desc_data_main = desc_data_main.split('SPECIFICATIONS',1)
+            # desc_data_main = desc_data_main.split('SPECIFICATIONS',1, flags=re.IGNORECASE)
+
+            desc_data_main = re.split("SPECIFICATIONS", desc_data_main, flags=re.IGNORECASE)
 
             if len(desc_data_main) >=1:
                 desc = desc_data_main[0]
 
             if len(desc_data_main) >=2:
-                spec = desc_data_main[1]
+                spec = desc_data_main[1].lstrip()
                 print (spec)
 
 
