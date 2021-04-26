@@ -1,1 +1,59 @@
-https://www.gunbuyer.com/firearms/handgun.html
+https://www.gunbuyer.com/firearms/rifles.html===Firearms/Rifles
+https://www.gunbuyer.com/firearms/shotguns.html===Firearms/Shotguns
+https://www.gunbuyer.com/firearms/state-compliant.html===Firearms/State Compliant
+https://www.gunbuyer.com/firearms/lower-receivers.html===Firearms/Lower Receivers
+https://www.gunbuyer.com/firearms/upper-receivers.html===Firearms/Upper Receivers
+https://www.gunbuyer.com/firearms/conversion-kits.html===Firearms/Conversion Kits
+https://www.gunbuyer.com/firearms/black-powder.html===Firearms/Black Powder
+https://www.gunbuyer.com/ammunition/rimfire.html===Ammunition/Rimfire
+https://www.gunbuyer.com/ammunition/handgun.html===Ammunition/Handgun
+https://www.gunbuyer.com/ammunition/rifle.html===Ammunition/Rifle
+https://www.gunbuyer.com/ammunition/shotgun.html===Ammunition/Shotgun
+https://www.gunbuyer.com/optics/scopes.html===Optics/Scopes
+https://www.gunbuyer.com/optics/sights.html===Optics/Sights
+https://www.gunbuyer.com/optics/rings-mounts-bases.html===Optics/Rings Mounts Bases
+https://www.gunbuyer.com/optics/accessories.html===Optics/Accessories
+https://www.gunbuyer.com/lasers-lights/flash-lights.html===Laser Lights/Flash Lights
+https://www.gunbuyer.com/lasers-lights/weapon-lights.html===Laser Light/Weapon Lights
+https://www.gunbuyer.com/lasers-lights/laser-sights.html===Laser Light/Laser Sights
+https://www.gunbuyer.com/lasers-lights/batteries-bulbs.html===Laser Light/Batteries Bulbs
+https://www.gunbuyer.com/magazines-clips/pistol-magazines.html===Magzines Clips/Pistol Magazines
+https://www.gunbuyer.com/magazines-clips/accessories.html===Magzines Clips/Accessories
+https://www.gunbuyer.com/magazines-clips/rifle-magazines.html===Magzines Clips/Rifle Magazines
+https://www.gunbuyer.com/magazines-clips/ar-magazines.html===Magzines Clips/AR Magazines
+https://www.gunbuyer.com/magazines-clips/ak-magazines.html===Magzines Clips/AK Magazines
+https://www.gunbuyer.com/gun-care.html===Gun Care
+https://www.gunbuyer.com/sale.html===Sale
+https://www.gunbuyer.com/accessories/air-guns.html===Accessories/Air Guns
+https://www.gunbuyer.com/accessories/apparel.html===Accessories/Apparel
+https://www.gunbuyer.com/accessories/air-gun-ammo.html===Accessories/Barrels & Choke Tubes
+https://www.gunbuyer.com/accessories/black-powder.html===Accessories/Black Powder
+https://www.gunbuyer.com/accessories/ear-eye-protection.html===Accessories/Ear & Eye Protection
+https://www.gunbuyer.com/accessories/electronics.html===Accessories/Electronics
+https://www.gunbuyer.com/accessories/firearm-parts.html===Accessories/Firearm Parts
+https://www.gunbuyer.com/accessories/grips-recoil-pads.html===Accessories/Grips & Recoil Pads
+https://www.gunbuyer.com/accessories/air-gun-accessories.html===Accessories/Gun Cases & Bags
+https://www.gunbuyer.com/accessories/holders-racks.html===Accessories/Holders & Racks
+https://www.gunbuyer.com/accessories/holsters.html===Accessories/Holsters
+https://www.gunbuyer.com/accessories/hunting.html===Accessories/Hunting
+https://www.gunbuyer.com/accessories/misc.html===Accessories/Misc
+https://www.gunbuyer.com/accessories/personal-protection.html===Accessories/Personal Protection
+https://www.gunbuyer.com/accessories/rests-bipods-tripods.html===Accessories/Rests & Bipods & Tripods
+https://www.gunbuyer.com/accessories/safes-vaults.html===Accessories/Safes & Vaults
+https://www.gunbuyer.com/accessories/slings-swivels.html===Accessories/Slings & Swivels
+https://www.gunbuyer.com/accessories/stocks-forearms.html===Accessories/Stocks & Forearms
+https://www.gunbuyer.com/accessories/suppressors.html===Accessories/Suppressors
+https://www.gunbuyer.com/accessories/tactical-gear.html===Accessories/Tactical Gear
+https://www.gunbuyer.com/accessories/targets.html===Accessories/Targets
+https://www.gunbuyer.com/accessories/tools.html===Accessories/Tools
+https://www.gunbuyer.com/accessories/traps-clay-throwers.html===Accessories/Traps & Clay Throwers
+https://www.gunbuyer.com/accessories/utility-storage-boxes.html===Accessories/Utility & Storage Boxes
+https://www.gunbuyer.com/accessories/rest-bipods-tripods.html===Accessories/Rest & Bipods & Tripods
+https://www.gunbuyer.com/accessories/grips-recoil-pds.html===Accessories/Grips & Recoil Pds
+https://www.gunbuyer.com/accessories/eye-ear-protection.html===Accessories/Eye & Ear Protection
+https://www.gunbuyer.com/knives-tools/folding-blades.html===Knives & Tools/Folding Blades
+https://www.gunbuyer.com/knives-tools/fixed-blades.html===Knives & Tools/Fixed Blades
+https://www.gunbuyer.com/knives-tools/automatic.html===Knives & Tools/Automatic
+https://www.gunbuyer.com/knives-tools/multi-tools.html===Knives & Tools/Multi-Tools
+https://www.gunbuyer.com/knives-tools/axes-saws-shovels.html===Knives & Tools/Axes, Saws & Shovels Saws & ShovelsAxes
+https://www.gunbuyer.com/knives-tools/accessories.html===Knives & Tools/Accessories

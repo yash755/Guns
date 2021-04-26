@@ -3,11 +3,13 @@ from bs4 import BeautifulSoup
 import math
 
 
-file = open('url.txt','r')
+file = open('url1.txt','r')
 
 for f in file:
     url = f
     url = url.replace('\n','')
+
+    url = url.split('===')
 
     print (url)
 
@@ -25,7 +27,7 @@ for f in file:
         'postman-token': "97ea517d-9e03-00ec-d6f3-c19a5ea786d5"
         }
 
-    response = requests.request("GET", url, headers=headers)
+    response = requests.request("GET", url[0], headers=headers)
 
     html = BeautifulSoup(response.content, 'html.parser')
 
@@ -50,7 +52,7 @@ for f in file:
          while page <= totalpage:
 
 
-            main_url = url
+            main_url = url[0]
 
             main_url = main_url + '?p=' + str(page) + '&product_list_limit=48'
 
@@ -89,8 +91,8 @@ for f in file:
 
 
 
-                    file = open('handgun.txt','a+')
-                    file.write(name + '===' + link + '===' + price + '===' + image + '===' + 'Firearms/Handgun' +'\n')
+                    file = open('main_links_1.txt','a+')
+                    file.write(name + '===' + link + '===' + price + '===' + image + '===' + str(url[1]) +'\n')
                     file.close()
 
                 except:
