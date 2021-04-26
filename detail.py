@@ -6,7 +6,7 @@ import csv
 import xlsxwriter
 import re
 
-file_name = 'demo_file_3.xlsx'
+file_name = 'demo_file_4.xlsx'
 
 workbook = xlsxwriter.Workbook(file_name)
 worksheet = workbook.add_worksheet()
@@ -17,7 +17,7 @@ worksheet = workbook.add_worksheet()
 line_count = 0
 
 
-file = open('test.txt','r')
+file = open('handgun.txt','r')
 
 for f in file:
 
