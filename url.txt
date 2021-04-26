@@ -1,8 +1,1 @@
-https://www.gunbuyer.com/ammunition.html
-https://www.gunbuyer.com/optics.html
-https://www.gunbuyer.com/lasers-lights.html
-https://www.gunbuyer.com/magazines-clips.html
-https://www.gunbuyer.com/gun-care.html
-https://www.gunbuyer.com/accessories.html
-https://www.gunbuyer.com/knives-tools.html
-https://www.gunbuyer.com/sale.html
+https://www.gunbuyer.com/firearms/handgun.html

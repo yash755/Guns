@@ -16,7 +16,7 @@ worksheet = workbook.add_worksheet()
 line_count = 0
 
 
-file = open('test.txt','r')
+file = open('handgun.txt','r')
 
 for f in file:
     data = f
@@ -24,12 +24,12 @@ for f in file:
 
     data = data.split('===')
 
-    if len(data) >=4:
+    if len(data) >=5:
 
 
         url = data[1]
         name = data[0]
-        cat = ''
+        cat =  data[4]
         mfg = ''
         upc = ''
         price = data[2]
@@ -58,46 +58,46 @@ for f in file:
 
         html = BeautifulSoup(response.content, 'html.parser')
 
-        try:
+        # try:
+        #
+        #     scripts = html.find_all('script',{'type':'application/ld+json'})
+        #
+        #     for script in scripts:
+        #         data = str(script)
+        #
+        #         if 'BreadcrumbList' in data:
+        #             data = data.replace('<script type="application/ld+json">','')
+        #             data = data.replace('</script>', '')
+        #
+        #             data = json.loads(data)
+        #
+        #             if 'itemListElement' in data:
+        #                 data = data['itemListElement']
+        #
+        #                 i = 1
+        #                 for d in data:
+        #                     if i != 1 and i != len(data):
+        #                         if 'item' in d:
+        #                             subdata = d['item']
+        #                             if 'name' in subdata:
+        #                                 cat = cat + subdata['name'] + '\\'
+        #
+        #
+        #
+        #                     i = i + 1
+        #
+        #             break
+        #
+        # except:
+        #     print ("script error")
 
-            scripts = html.find_all('script',{'type':'application/ld+json'})
-
-            for script in scripts:
-                data = str(script)
-
-                if 'BreadcrumbList' in data:
-                    data = data.replace('<script type="application/ld+json">','')
-                    data = data.replace('</script>', '')
-
-                    data = json.loads(data)
-
-                    if 'itemListElement' in data:
-                        data = data['itemListElement']
-
-                        i = 1
-                        for d in data:
-                            if i != 1 and i != len(data):
-                                if 'item' in d:
-                                    subdata = d['item']
-                                    if 'name' in subdata:
-                                        cat = cat + subdata['name'] + '\\'
-
-
-
-                            i = i + 1
-
-                    break
-
-        except:
-            print ("script error")
-
-        if cat == '':
-            cat = 'Firearms'
-
-        catlen = len(cat)
-
-        if cat[catlen -1 ] == '\\':
-            cat = cat[0:catlen -1]
+        # if cat == '':
+        #     cat = 'Firearms'
+        #
+        # catlen = len(cat)
+        #
+        # if cat[catlen -1 ] == '\\':
+        #     cat = cat[0:catlen -1]
 
         print (cat)
 

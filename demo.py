@@ -89,8 +89,8 @@ for f in file:
 
 
 
-                    file = open('links2.txt','a+')
-                    file.write(name + '===' + link + '===' + price + '===' + image +'\n')
+                    file = open('handgun.txt','a+')
+                    file.write(name + '===' + link + '===' + price + '===' + image + '===' + 'Firearms/Handgun' +'\n')
                     file.close()
 
                 except:
