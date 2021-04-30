@@ -20,14 +20,15 @@ response = requests.request("GET", 'https://www.gunbuyer.com/', headers=headers)
 
 html = BeautifulSoup(response.content, 'html.parser')
 
-li = html.find('li',{'class':'level0 nav-8 category-item level-top parent'})
+ul = html.find('ul',{'class':'level1 submenu    ui-menu ui-widget ui-widget-content ui-corner-all expanded'})
 
-uls = li.find('ul')
+lis = ul.find_all('li')
 
-for ul in uls:
-    a_tag = ul.find('a')
-    print (ul.text.strip())
-    cat = 'Knives & Tools/'+ ul.text.strip()
-    file = open('url1.txt', 'a+')
-    file.write(a_tag.get('href') + '===' + cat + '\n')
-    file.close()
+for li in lis:
+    print (li.text.strip())
+    # a_tag = ul.find('a')
+    # print (ul.text.strip())
+    # cat = 'Knives & Tools/'+ ul.text.strip()
+    # file = open('url1.txt', 'a+')
+    # file.write(a_tag.get('href') + '===' + cat + '\n')
+    # file.close()

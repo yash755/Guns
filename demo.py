@@ -35,7 +35,9 @@ for f in file:
     totalpage = -1
 
     try:
-        number = html.find('span',{'class':'toolbar-number'})
+        number =html.find_all('span',{'class':'toolbar-number'})
+        number = number[len(number)-1]
+        print (number)
         number = int(number.text.strip())
         print (number)
         totalpage = math.ceil(number/48)
